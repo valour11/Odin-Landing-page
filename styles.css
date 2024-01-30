@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+
+/* top nav bar */
+section{
+    font-size: 20px;
+    background-color: #1f2937;
+    color: aliceblue;
+    height: 550px;
+}
+
+nav ul{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3882f6;
+}
+
+ul li{
+    margin: 20px;
+}
+
+ul li:first-child{
+    margin-right: auto;
+}
+
+/* *************below nav, this website******************/
+
+.container{
+    margin: 90px;
+    display: flex;
+    max-height: 350px;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.items1{
+    width: 50%;
+}
+
+.items2{
+    background-color: #9ea3ad;
+}
+
+.topbutton{
+    display: flex;
+    gap: 20px;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.button-item{
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.topbutton a:hover{
+    color: #1f2937;
+}
+
+
+/***************** second section ************************/
+.random{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.second-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second-items{
+    border: solid 3px blue;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.underpf{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.understs{
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+/**************** qoute section *********************/
+.testimonies{
+    margin-top: 70px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 20px;
+    padding: 100px 200px;
+}
+
+.thor{
+    padding-left: 70%;
+}
+
+
+/************************ call to action ****************************/
+.cta{
+    font-size: 20px;
+    padding: 45px;
+    display: flex;
+    background-color: #3882f6;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 100px 200px;
+}
+
+.cta-items{
+    margin-left: 70px;
+}
+
+.ctabutton{
+    font-size: 20px;
+    margin-left: 100px;
+    color: aliceblue;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 50px; padding-right: 30px;
+}
+
+/***************** footer ****************************/
+.footer{
+    /* height: 100px; */
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+    font-size: 15px;   
+}
